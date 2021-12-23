@@ -1,5 +1,5 @@
 /**
- * TODO: Change sortMoviesByRank() function to sort movies list by rank
+ * DONE: Change sortMoviesByRank() function to sort movies list by rank
  * TODO: Sort movies by id, rank, and title through dynamic function
  * TODO: Create helper function called getMaxMovieObject() for finding max movie
  */
@@ -105,7 +105,7 @@ function sortMoviesByRank(movies){
       }
       // swap the first and the last
       movies[max_location] = movies[j];
-      movies[j] = max_obj
+      movies[j] = max_obj;
   }
 
   return movies;
