@@ -3,7 +3,7 @@ const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const https = require("https");
-const {newspapers} = require("./data");
+const {newspapers} = require("./src/data");
 
 const app = express();
 
