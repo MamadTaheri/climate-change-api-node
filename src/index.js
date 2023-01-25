@@ -1,4 +1,4 @@
-const PORT = 8003
+const PORT = process.env.PORT || 8003
 const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
